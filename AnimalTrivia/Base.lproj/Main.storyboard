@@ -90,6 +90,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n8C-KG-wis">
+                                <rect key="frame" x="19" y="133" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbq-1m-a4T" userLabel="Next Button">
                                 <rect key="frame" x="20" y="247" width="362" height="75"/>
                                 <state key="normal" image="Group Next Rec"/>
@@ -113,6 +119,7 @@
                         <outlet property="enternameText" destination="KGN-kd-oem" id="hga-vC-xkf"/>
                         <outlet property="incorrectAImageView" destination="1u6-7o-R9G" id="h8R-Wi-J48"/>
                         <outlet property="incorrectBImageView" destination="Qkb-J9-q24" id="wVG-Lz-txB"/>
+                        <outlet property="messageLabel" destination="n8C-KG-wis" id="Keq-Yd-vXT"/>
                         <outlet property="nextButton" destination="wbq-1m-a4T" id="2CD-c3-sd1"/>
                     </connections>
                 </viewController>

@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var enternameText: UITextField!
     @IBOutlet weak var entermessageText: UITextField!
     @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var messageLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,12 +40,17 @@ class ViewController: UIViewController {
         //By DW, first comment to test Github.
         
         aaLabel.hidden = false
+        messageLabel.hidden = false
         aaLabel.text = enternameText.text
-        
+        messageLabel.text = entermessageText.text
         aaLabel.textColor = UIColor.redColor()
+        messageLabel.textColor = UIColor.blueColor()
         
         enternameText.text = ""
+        entermessageText.text = ""
         enternameText.resignFirstResponder()
+        entermessageText.resignFirstResponder()
+        nextButton.backgroundColor = UIColor.blackColor()
         
         nextButton.setTitle("Mes", forState: UIControlState.Normal)
         
