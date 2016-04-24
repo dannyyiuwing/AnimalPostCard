@@ -12,16 +12,18 @@
 		300382E21CCB71A500F092DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300382E01CCB71A500F092DB /* Main.storyboard */; };
 		300382E41CCB71A500F092DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300382E31CCB71A500F092DB /* Assets.xcassets */; };
 		300382E71CCB71A500F092DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 300382E51CCB71A500F092DB /* LaunchScreen.storyboard */; };
+		30A326291CCCBB1F00B317F3 /* 2013-08-09 20.23.12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 30A326281CCCBB1F00B317F3 /* 2013-08-09 20.23.12.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		300382D91CCB71A500F092DB /* AnimalTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		300382D91CCB71A500F092DB /* AnimalsTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimalsTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		300382DC1CCB71A500F092DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		300382DE1CCB71A500F092DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		300382E11CCB71A500F092DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		300382E31CCB71A500F092DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		300382E61CCB71A500F092DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		300382E81CCB71A500F092DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A326281CCCBB1F00B317F3 /* 2013-08-09 20.23.12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2013-08-09 20.23.12.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +48,7 @@
 		300382DA1CCB71A500F092DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				300382D91CCB71A500F092DB /* AnimalTrivia.app */,
+				300382D91CCB71A500F092DB /* AnimalsTrivia.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +56,7 @@
 		300382DB1CCB71A500F092DB /* AnimalTrivia */ = {
 			isa = PBXGroup;
 			children = (
+				30A326271CCCBAC800B317F3 /* Supporting Files */,
 				300382DC1CCB71A500F092DB /* AppDelegate.swift */,
 				300382DE1CCB71A500F092DB /* ViewController.swift */,
 				300382E01CCB71A500F092DB /* Main.storyboard */,
@@ -64,12 +67,20 @@
 			path = AnimalTrivia;
 			sourceTree = "<group>";
 		};
+		30A326271CCCBAC800B317F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30A326281CCCBB1F00B317F3 /* 2013-08-09 20.23.12.jpg */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		300382D81CCB71A500F092DB /* AnimalTrivia */ = {
+		300382D81CCB71A500F092DB /* AnimalsTrivia */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 300382EB1CCB71A500F092DB /* Build configuration list for PBXNativeTarget "AnimalTrivia" */;
+			buildConfigurationList = 300382EB1CCB71A500F092DB /* Build configuration list for PBXNativeTarget "AnimalsTrivia" */;
 			buildPhases = (
 				300382D51CCB71A500F092DB /* Sources */,
 				300382D61CCB71A500F092DB /* Frameworks */,
@@ -79,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = AnimalTrivia;
+			name = AnimalsTrivia;
 			productName = AnimalTrivia;
-			productReference = 300382D91CCB71A500F092DB /* AnimalTrivia.app */;
+			productReference = 300382D91CCB71A500F092DB /* AnimalsTrivia.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 300382D41CCB71A500F092DB /* Build configuration list for PBXProject "AnimalTrivia" */;
+			buildConfigurationList = 300382D41CCB71A500F092DB /* Build configuration list for PBXProject "AnimalsTrivia" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				300382D81CCB71A500F092DB /* AnimalTrivia */,
+				300382D81CCB71A500F092DB /* AnimalsTrivia */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				300382E71CCB71A500F092DB /* LaunchScreen.storyboard in Resources */,
+				30A326291CCCBB1F00B317F3 /* 2013-08-09 20.23.12.jpg in Resources */,
 				300382E41CCB71A500F092DB /* Assets.xcassets in Resources */,
 				300382E21CCB71A500F092DB /* Main.storyboard in Resources */,
 			);
@@ -254,7 +266,7 @@
 				INFOPLIST_FILE = AnimalTrivia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eclipxi.AnimalTrivia;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AnimalsTrivia;
 			};
 			name = Debug;
 		};
@@ -265,14 +277,14 @@
 				INFOPLIST_FILE = AnimalTrivia/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eclipxi.AnimalTrivia;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AnimalsTrivia;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		300382D41CCB71A500F092DB /* Build configuration list for PBXProject "AnimalTrivia" */ = {
+		300382D41CCB71A500F092DB /* Build configuration list for PBXProject "AnimalsTrivia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				300382E91CCB71A500F092DB /* Debug */,
@@ -281,13 +293,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		300382EB1CCB71A500F092DB /* Build configuration list for PBXNativeTarget "AnimalTrivia" */ = {
+		300382EB1CCB71A500F092DB /* Build configuration list for PBXNativeTarget "AnimalsTrivia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				300382EC1CCB71A500F092DB /* Debug */,
 				300382ED1CCB71A500F092DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
