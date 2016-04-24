@@ -36,6 +36,8 @@ class ViewController: UIViewController {
 
     
     @IBAction func sendMailNextButtonPressed(sender: UIButton) {
+        //By DW, first comment to test Github.
+        
         aaLabel.hidden = false
         aaLabel.text = enternameText.text
         
